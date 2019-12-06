@@ -4,8 +4,8 @@ from .poisson_etest_fortran import two_sample_poisson
 
 
 def poisson_etest(
-    k1: int, k2: int, n1: int, n2: int, alternative: str = "twosided", d: float = 0.0
-) -> float:
+    k1, k2, n1, n2, alternative="twosided", d=0.0
+):
     """Conduct a two_sample_poisson test.
 
     Parameters
